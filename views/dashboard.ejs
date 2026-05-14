@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+</head>
+<body>
+<h1>Dashboard</h1>
+
+<% if (typeof message !== "undefined") { %>
+    <p style="color:red"><%= message %></p>
+<% } %>
+
+<p>You are logged in</p>
+<a href="/auth/logout">Logout</a>
+
+</body>
+</html>
